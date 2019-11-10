@@ -1,0 +1,9 @@
+{
+  "backupFolder": "TestBackup",
+  "entries": [
+    {
+      "sourceFile": "TestData\\TestFile.txt",
+      "destinationFolder": "TestDestinationFolder"
+    }
+  ]
+}

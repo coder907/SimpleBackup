@@ -1,0 +1,26 @@
+{
+  "rootFolder": "D:\\Backup",
+  "entries": [
+    {
+      "sourceFile": "TestFile.txt",
+      "destinationFolder": "TestDestinationFolder1"
+    },
+    {
+      "sourceFile": "TestFolder\\TestFolderFile.txt",
+      "destinationFolder": "TestDestinationFolder1"
+    },
+    {
+      "sourceFile": "TestFolder\\TestSubFolder\\TestSubFolderFile.txt",
+      "destinationFolder": "TestDestinationFolder1"
+    },
+    {
+      "sourceFolder": "TestFolder",
+      "destinationFolder": "TestDestinationFolder2"
+    },
+    {
+      "sourceFolder": "TestFolder\\TestSubFolder",
+      "destinationFolder": "TestDestinationFolder2"
+    }
+  ],
+  "createZipArchive": true
+}

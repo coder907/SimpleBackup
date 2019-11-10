@@ -1,0 +1,25 @@
+{
+  "backupFolder": "TestBackup",
+  "entries": [
+    {
+      "sourceFile": "TestData\\TestFile.txt",
+      "destinationFolder": "TestDestinationFolder1"
+    },    
+    {
+      "sourceFile": "TestData\\TestFolder\\TestFolderFile.txt",
+      "destinationFolder": "TestDestinationFolder1"
+    },
+    {
+      "sourceFile": "TestData\\TestFolder\\TestSubFolder\\TestSubFolderFile.txt",
+      "destinationFolder": "TestDestinationFolder1"
+    },
+    {
+      "sourceFolder": "TestData\\TestFolder",
+      "destinationFolder": "TestDestinationFolder2"
+    },
+    {
+      "sourceFolder": "TestData\\TestFolder\\TestSubFolder",
+      "destinationFolder": "TestDestinationFolder2"
+    }    
+  ]
+}
